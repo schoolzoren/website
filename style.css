@@ -1,0 +1,32 @@
+body {
+
+  align-content: center;
+  background-color: black;
+  text-align: center;
+  padding-bottom: 500px;
+  color: white;
+  animation-name: example;
+  animation-duration: 5s;
+
+}
+
+h1 {
+
+  font-size: 50;
+  
+}
+
+@keyframes example {
+  from {
+
+    color: black;
+    padding-top: 500;
+
+  }
+  to {
+
+    color: white;
+    padding-top: 0;
+
+  }
+}
